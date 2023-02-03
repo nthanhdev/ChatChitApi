@@ -17,7 +17,7 @@ namespace ChatChitApi.Controllers
             using (var client = new HttpClient())
             {
                 // Add authorization header with API key
-                client.DefaultRequestHeaders.Add("authorization", "Bearer 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");
+                client.DefaultRequestHeaders.Add("authorization", "Bearer YOUR_API_KEY");
                 // Define request body with model, prompt, top_p, and max_tokens
                 var requestBody = new
                 {
